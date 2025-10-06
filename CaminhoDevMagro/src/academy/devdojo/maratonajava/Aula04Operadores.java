@@ -42,5 +42,22 @@ public class Aula04Operadores {
 
         System.out.println("isPlaystationCincoCompravel: "+isPlaystationCincoCompravel);
 
+        double salarioBonus = 1000;
+        salarioBonus = salarioBonus + 1000;
+        salarioBonus *=2;
+        salarioBonus /= 2;
+        salarioBonus %= 2;
+        System.out.println(salarioBonus);
+
+        int contador = 0;
+        contador += 1;
+        contador ++;
+        contador --;
+        ++ contador;
+        --contador;
+        System.out.println(contador);
+        int contador2 = 0;
+        System.out.println(contador2);
+
     }
 }
