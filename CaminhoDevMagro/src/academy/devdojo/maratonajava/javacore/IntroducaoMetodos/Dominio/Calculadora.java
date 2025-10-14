@@ -34,5 +34,13 @@ public class Calculadora {
         System.out.println("Dentro de calculadora");
         System.out.println("Numero: " + numero1);
         System.out.println("Numero: " + numero2);
+
+    }
+    public void somarArrays(int [] numeros){
+        int soma = 0;
+        for (int num : numeros){
+            soma += num;
+        }
+
     }
 }
