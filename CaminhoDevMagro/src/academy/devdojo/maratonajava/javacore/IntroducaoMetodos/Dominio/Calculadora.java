@@ -41,6 +41,18 @@ public class Calculadora {
         for (int num : numeros){
             soma += num;
         }
+        System.out.println(soma);
+
+    }
+
+    // o varargs sempre tem que ser o ultimo atributo
+    public void VarArgs(int... numeros){
+        int soma = 0;
+        for (int num : numeros){
+            soma += num;
+        }
+        System.out.println(soma);
+
 
     }
 }
