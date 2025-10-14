@@ -27,6 +27,12 @@ public class Calculadora {
         else {
             System.out.println(num1/num2);
         }
-
+    }
+    public void mudarDoisNumeros(int numero1, int numero2){
+        numero1 = 99;
+        numero2 = 33;
+        System.out.println("Dentro de calculadora");
+        System.out.println("Numero: " + numero1);
+        System.out.println("Numero: " + numero2);
     }
 }
