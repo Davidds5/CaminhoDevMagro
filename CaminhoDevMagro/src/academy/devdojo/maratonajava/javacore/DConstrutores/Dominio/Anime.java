@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.CSobreCargaDeMetodos.Dominio;
+package academy.devdojo.maratonajava.javacore.DConstrutores.Dominio;
 
 public class Anime {
     private String nome;
@@ -6,38 +6,23 @@ public class Anime {
     private int ep;
     private String genero;
 
- // metodo construtor
-    public void init(String nome, String tipo, int ep){
+
+    public Anime(String nome){
+        System.out.println("dentro do constutor");
         this.nome = nome;
-        this.tipo = tipo;
-        this.ep = ep;
     }
     public void init(String nome, String tipo, int ep, String genero){
-        this.init( nome, tipo, ep);
         this.nome = nome;
         this.tipo = tipo;
         this.ep = ep;
         this.genero = genero;
+
     }
     public void imprime(){
         System.out.println(this.nome);
         System.out.println(this.tipo);
         System.out.println(this.ep);
         System.out.println(this.genero);
-}
-    public void setTipo(String tipo){
-        this.tipo = tipo;
     }
 
-    public String getTipo(){
-        return tipo;
-    }
-
-    public int getEp() {
-        return ep;
-    }
-
-    public void setEp(int ep) {
-        this.ep = ep;
-    }
 }

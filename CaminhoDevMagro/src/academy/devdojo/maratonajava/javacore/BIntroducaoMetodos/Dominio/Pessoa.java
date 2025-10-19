@@ -1,4 +1,4 @@
-package academy.devdojo.maratonajava.javacore.IntroducaoMetodos.Dominio;
+package academy.devdojo.maratonajava.javacore.BIntroducaoMetodos.Dominio;
 // acomplamento e o quanto uma classe conhece da outra
 
 // classe Pessoa e uma objeto
