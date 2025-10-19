@@ -7,7 +7,9 @@ public class FuncionarioTeste01 {
         Funcionario funcionario = new Funcionario();
         funcionario.nome = "Kratos";
         funcionario.idade = 47;
-        funcionario.salario = new double[]{2500, 1600, 1977};
+        // pode se estancia diretamente
+      //  funcionario.salarios = new double[]{2500, 1600, 1977};
         funcionario.imprimirDados();
+
     }
 }
