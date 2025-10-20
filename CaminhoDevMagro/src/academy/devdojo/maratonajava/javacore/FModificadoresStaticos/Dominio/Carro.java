@@ -11,11 +11,20 @@ public class Carro {
 
     }
 
+    // podemos usar o this aqui e nao no metodo static, pq aqui nos temos certeza que sera estanciado
     public void imprime(){
         System.out.println("____________________");
         System.out.println("Nome: "+this.nome);
         System.out.println("Velocidade Maxima: "+this.velociadadeMaxima);
         System.out.println("Velocidade Limite: "+this.velocidadeLimite);
+    }
+
+    // so funciona se colocar  molde diretamente
+    public static void setVelocidadeLimite(double velocidadeLimite){
+        Carro.velocidadeLimite = velocidadeLimite;
+    }
+    public static double getVelocidadeLimite(){
+        return velocidadeLimite;
     }
     public String getNome() {
         return nome;
