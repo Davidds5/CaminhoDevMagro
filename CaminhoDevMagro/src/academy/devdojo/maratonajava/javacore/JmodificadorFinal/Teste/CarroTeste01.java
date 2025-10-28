@@ -9,7 +9,7 @@ public class CarroTeste01 {
         System.out.println(Carro.VELOCIDADE_LIMITE);
         // obs: so se altera se o metodo final for uma class, ai sim podemos alterar na class teste, usando o set
         // mas quando e criado pelo atributo da propria class nos nao conseguimos muda com o set
-        carro.setVELOCIDADE(200);
+       // carro.setVELOCIDADE(200);
         System.out.println(carro.COMPRADOR);
 
         carro.COMPRADOR.setNome("Luis");
