@@ -15,7 +15,9 @@ public class SeminarioTeste01 {
         Professores professores = new Professores("Konohamaru", "Taijust");
 
         Seminarios seminarios = new Seminarios("Introducao a logica", local, new Estudantes[]{estudantes1, estudantes2},professores );
-
+        Seminarios[] seminariosDisponiveis = {seminarios};
+        professores.setSeminarios(seminariosDisponiveis);
+        professores.imprime();
         seminarios.imprime();
 
 

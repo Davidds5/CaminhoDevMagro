@@ -17,6 +17,7 @@ public class Professores {
     }
 
     public void imprime(){
+        System.out.println("----Professor----");
         System.out.println("Nome: "+this.nome + "| Especialidade: "+especialidade);
         if(seminarios == null)return;
         for (Seminarios seminarios1 : seminarios){
