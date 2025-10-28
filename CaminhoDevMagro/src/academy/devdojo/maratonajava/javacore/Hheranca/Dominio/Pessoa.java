@@ -6,7 +6,7 @@ public class Pessoa {
     private Endereco endereco;
 
 
-    // se existe um construtor na class mae, obrigatoriamente tera que existi nas classes filhas 
+    // se existe um construtor na class mae, obrigatoriamente tera que existi nas classes filhas
     public Pessoa(String nome) {
         this.nome = nome;
     }

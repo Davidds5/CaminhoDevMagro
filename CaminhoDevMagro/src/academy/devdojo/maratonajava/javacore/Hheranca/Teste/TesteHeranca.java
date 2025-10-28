@@ -4,7 +4,7 @@ import academy.devdojo.maratonajava.javacore.Hheranca.Dominio.Endereco;
 import academy.devdojo.maratonajava.javacore.Hheranca.Dominio.Funcionario;
 import academy.devdojo.maratonajava.javacore.Hheranca.Dominio.Pessoa;
 
-import javax.xml.stream.events.EndElement;
+
 
 public class TesteHeranca {
     public static void main(String[] args) {
