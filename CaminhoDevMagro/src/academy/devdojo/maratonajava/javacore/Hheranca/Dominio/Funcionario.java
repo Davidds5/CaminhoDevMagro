@@ -8,6 +8,10 @@ public class Funcionario extends Pessoa {
     public double getSalario() {
         return salario;
     }
+    public void imprime(){
+        super.imprime();// metodo para imprimir primeiro os souts da class Pessoa
+        System.out.println("Salario: "+this.salario);
+    }
 
     public void setSalario(double salario) {
         this.salario = salario;
