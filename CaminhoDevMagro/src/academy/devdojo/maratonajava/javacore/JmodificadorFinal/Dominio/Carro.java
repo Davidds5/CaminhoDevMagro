@@ -1,6 +1,6 @@
 package academy.devdojo.maratonajava.javacore.JmodificadorFinal.Dominio;
-
-public class Carro {
+// class nao podera ser estanciada
+public final class Carro {
     private String nome;
     public  static final double VELOCIDADE_LIMITE = 0;
     // esse valor nao podera ser mudado de nenhuma forma depois de colocar o metodo "final".
