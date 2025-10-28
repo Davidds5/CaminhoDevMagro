@@ -4,6 +4,7 @@ import academy.devdojo.maratonajava.javacore.BIntroducaoMetodos.Dominio.Calculad
 
 public class CalculadoraTeste04 {
     public static void main(String[] args) {
+
         Calculadora calculadora = new Calculadora();
 
         int numero1 = 10;
