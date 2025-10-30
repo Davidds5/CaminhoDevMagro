@@ -1,9 +1,7 @@
 package academy.devdojo.maratonajava.javacore.Kenum.Dominio;
 
 public class Cliente {
-     public enum TipoPagamento{
-        DEBITO,CREDITO;
-    }
+
     private String nome;
     private TipoCliente tipoCliente;
     private TipoPagamento tipoPagamento;
@@ -17,11 +15,8 @@ public class Cliente {
 
     @Override
     public String toString() {
-        return "Cliente{" +
-                "nome='" + nome + '\'' +
-                ", tipoCliente=" + tipoCliente +
-                ", tipoPagamento=" + tipoPagamento +
-                '}';
+        return "Cliente Nome: "+this.nome+"| Tipo do Cliente: "+tipoCliente+
+                "| Tipo Cliente Int: "+tipoCliente.getValor()+ "| Tipo pagamento: "+tipoPagamento;
     }
 
     public String getNome() {
