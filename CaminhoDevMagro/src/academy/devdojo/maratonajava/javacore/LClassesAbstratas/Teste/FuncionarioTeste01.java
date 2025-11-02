@@ -11,5 +11,8 @@ public class FuncionarioTeste01 {
         // usando o tostring fazemos cada estancia ter suas proprias caracteristicas
         Desenvolvedor desenvolvedor = new Desenvolvedor("David", 18000);
         System.out.println(desenvolvedor);
+
+        gerente.imprime();
+        desenvolvedor.imprime();
     }
 }

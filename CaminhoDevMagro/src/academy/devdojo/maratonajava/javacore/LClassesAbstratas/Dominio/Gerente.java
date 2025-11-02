@@ -9,4 +9,6 @@ public class Gerente extends Funcionario{
     public String toString() {
         return "Gerente Nome: "+nome+" | Salario: "+salario;
     }
+
+
 }
