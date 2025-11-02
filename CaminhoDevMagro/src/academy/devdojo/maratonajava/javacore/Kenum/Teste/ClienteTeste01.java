@@ -19,5 +19,12 @@ public class ClienteTeste01 {
         // agr podemos usar o metodo calcular diretamente do enum de pagamento
         System.out.println(TipoPagamento.CREDITO.calcularDesconto(100));
 
+        TipoCliente tipoCliente = TipoCliente.valueOf("PESSOA_FISICA");
+        System.out.println(tipoCliente.getNomeRelatorio());
+
+        // quando se e assim nao e preciso busca por nome relatorio
+        // estanciando usando o metodo static usado na class enum, tipo cliente
+        TipoCliente tipoCliente2 = TipoCliente.tipoClientePorNomeRelatorio("Pessoa Fisica11");
+        System.out.println(tipoCliente2);
     }
 }

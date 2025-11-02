@@ -12,6 +12,18 @@ public enum TipoCliente {
          this.nomeRelatorio = nomeRelatorio;
 
      }
+     // values cria uma lista com todos os valores da class enum tipo cliente
+    // usando o for conseguimos pecorre por essa lista
+    // equals e pra confirma se o nome buscado pelo get e igual ao nome do relatorio digitado,
+    // se for igual ele retorna
+     public static TipoCliente tipoClientePorNomeRelatorio(String nomeRelatorio) {
+         for (TipoCliente tipoCliente : values()) {
+             if (tipoCliente.getNomeRelatorio().equals(nomeRelatorio)) {
+                 return tipoCliente;
+             }
+         }
+         return null;
+     }
 
     public String getNomeRelatorio() {
         return nomeRelatorio;
