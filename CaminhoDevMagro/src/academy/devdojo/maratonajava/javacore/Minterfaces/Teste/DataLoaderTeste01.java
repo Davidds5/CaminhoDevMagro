@@ -10,5 +10,11 @@ public class DataLoaderTeste01 {
 
         FileLoader fileLoader = new FileLoader();
         fileLoader.load();
+
+        dataBaseLoader.remove();
+        fileLoader.remove();
+        dataBaseLoader.checkPermission();// metodo estanciado diretamente de class
+        fileLoader.checkPermission();// metodo checado pela interface
+
     }
 }
