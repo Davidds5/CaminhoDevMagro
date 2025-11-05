@@ -1,18 +1,15 @@
 package academy.devdojo.maratonajava.javacore.NPolimorfismo.Dominio;
 
-public class Tomate extends Produto{
+public class Televisao extends Produto{
+    public static final double IMPOSTO_POR_CENTO = 0.21;
 
-    public static final double IMPOSTO_POR_CENTO = 0.06;
-
-
-
-    public Tomate(String nome, double valor) {
+    public Televisao(String nome, double valor) {
         super(nome, valor);
     }
 
     @Override
     public double calcularImposto() {
-        System.out.println("Imposto do Tomate");
+        System.out.println("Imposto da Televisao");
         return this.valor * IMPOSTO_POR_CENTO;
     }
 }
