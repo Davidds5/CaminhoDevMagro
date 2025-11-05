@@ -3,8 +3,9 @@ package academy.devdojo.maratonajava.javacore.NPolimorfismo.Servico;
 import academy.devdojo.maratonajava.javacore.NPolimorfismo.Dominio.Computador;
 import academy.devdojo.maratonajava.javacore.NPolimorfismo.Dominio.Tomate;
 
+// quando nao estamos acessando os atributos de classes nos podemos transforma os nossos metodos em static
 public class CalculadoraImposto {
-    public void calcularImposto(Computador computador){
+    public static void calcularImpostoComputador(Computador computador){
         System.out.println("Relatorio de imposto do computador");
         double imposto = computador.calcularImposto();
         System.out.println("Computador: "+computador.getNome());
@@ -12,10 +13,11 @@ public class CalculadoraImposto {
         System.out.println("Imposto a ser pago: "+imposto);
 
     }
-    public void calcularImposto(Tomate tomate){
+    public static void calcularImpostoTomate(Tomate tomate){
+        System.out.println();
         System.out.println("Relatorio de imposto do tomate");
         double imposto = tomate.calcularImposto();
-        System.out.println("Computador: "+tomate.getNome());
+        System.out.println("Tomate: "+tomate.getNome());
         System.out.println("Valor: "+tomate.getValor());
         System.out.println("Imposto a ser pago: "+imposto);
 
