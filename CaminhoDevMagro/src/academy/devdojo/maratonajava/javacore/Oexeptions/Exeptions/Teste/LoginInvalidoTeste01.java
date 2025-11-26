@@ -1,9 +1,6 @@
 package academy.devdojo.maratonajava.javacore.Oexeptions.Exeptions.Teste;
-
 import academy.devdojo.maratonajava.javacore.Oexeptions.Exeptions.Dominio.LoginInvalidoExeptions;
-
 import java.util.Scanner;
-
 public class LoginInvalidoTeste01{
     public static void main(String[] args) {
         try {
